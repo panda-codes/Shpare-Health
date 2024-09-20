@@ -1,0 +1,94 @@
+/* Reset margin, padding, and set box-sizing for all elements */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Set body to fill the viewport and center content */
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Center-align the h2 and add space below */
+h2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+/* Container for the form with padding and border */
+.form-container {
+  width: 300px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Form group with consistent spacing below */
+.form-group {
+  margin-bottom: 15px; /* Corrected the margin-bottom property */
+}
+
+/* Label with bold text and minimal spacing below */
+.form-group label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px; /* Adjusted margin for better spacing */
+}
+
+/* Input fields with full width, padding, and minimal border-radius */
+.form-group input {
+  width: 100%;
+  padding: 8px;
+  font-size: 14px; /* Increased font size for better readability */
+  border: 1px solid #ccc;
+  border-radius: 5px; /* Increased border-radius for smoother corners */
+}
+ .submit-btn{
+  display: inline-block;
+  width: 100%;
+  padding: 10px 20px;
+  font-size: 16px;
+  color: white;
+  background-color: #472dbb;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.submit-btn:hover {
+  color: #45d5a0;
+}
+
+p{
+  margin-top: 15px;
+  font-size: 12px;
+}
+/* p a{
+  font-size: 20px;
+  margin-left: 10px;
+} */
+
+.button-link {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  color: white;
+  background-color: #472dbb;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.button-link:hover {
+  background-color: #45d5a0;
+}
+
